@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0}
+body.users.new{
+    font-family: "微软雅黑", "宋体";
+    font-size: 14px;
+    background: white;
+}
+.login{
+    border: solid #ccc 1px;
+    width: 320px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 25px;
+
+}
+.login h4{
+    font-size: 16px;
+    line-height: 32px;
+}
+/*.login div{*/
+    /*border: solid red 1px;*/
+     /*}*/
+.login input{
+    width: 250px;
+    height: 30px;
+}
+.login .form-label{
+    margin-top:15px;
+}
+.login .form-btn{
+    margin-top: 20px;
+}
+.login .form-btn .sub-btn{
+    height: 30px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-family: "微软雅黑", "宋体";
+    font-size: 16px;
+    letter-spacing: 3px;
+}

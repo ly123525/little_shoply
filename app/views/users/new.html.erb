@@ -1,0 +1,29 @@
+<div class="login">
+  <h3>用户注册</h3>
+<%= form_for @user, :method=>:post, validate: true do |f| %>
+      <div class="form-label">
+        <%= f.label :email, "邮箱" %>
+      </div>
+      <div>
+        <%= f.text_field :email, validate: true %>
+      </div>
+
+      <div class="form-label">
+        <%= f.label :password, "密码"  %>
+      </div>
+      <div>
+        <%= f.password_field :password %>
+      </div>
+
+      <div class="form-label">
+        <%= f.label :password_confirmation, "密码确认" %>
+      </div>
+      <div>
+        <%= f.password_field :password_confirmation %>
+      </div>
+
+      <div class="form-btn">
+        <%= f.submit "保存", :class=>'sub-btn' %>
+      </div>
+<% end %>
+</div>
