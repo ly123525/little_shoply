@@ -12,14 +12,14 @@
         <%= f.label :password, "密码"  %>
       </div>
       <div>
-        <%= f.password_field :password %>
+        <%= f.password_field :password, validate: true %>
       </div>
 
       <div class="form-label">
         <%= f.label :password_confirmation, "密码确认" %>
       </div>
       <div>
-        <%= f.password_field :password_confirmation %>
+        <%= f.password_field :password_confirmation, validate: true %>
       </div>
 
       <div class="form-btn">

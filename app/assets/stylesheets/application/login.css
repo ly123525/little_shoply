@@ -39,3 +39,5 @@ body.users.new{
     font-size: 16px;
     letter-spacing: 3px;
 }
+.login .form-btn .sub-btn:hover{ background: deepskyblue }
+.field_with_errors label.message {color: red }
