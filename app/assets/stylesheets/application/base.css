@@ -10,5 +10,15 @@
     color: white;
 }
 .user_name{
-    margin-left: 20px;
+    margin-left: 10px;
 }
+.page-flash{
+    position: relative;
+    /*max-width:500px;*/
+    width: 300px;
+    margin-top: 65px;
+    /*margin-left: auto;*/
+    /*margin-right:0;*/
+    z-index: 999;
+}
+

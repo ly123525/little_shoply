@@ -11,7 +11,10 @@
 
   <body  data-controller-name="<%= controller_name %>" date-action-name="<%= action_name %>"  id="<%= "#{controller_name}_#{action_name}" %>" class="<%= "#{controller_name} #{action_name}" %>">
     <%= render "/menu" %>
-    <%= yield %>
+    <div  class="container-fluid main-container fadeIn animated">
+      <%= render "/flash" %>
+      <%= yield %>
+    </div>
   </body>
   <%= javascript_include_tag 'application' %>
   <%= yield :javascripts %>

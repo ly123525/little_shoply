@@ -1,0 +1,22 @@
+<div class="session">
+  <h3>用户登陆</h3>
+  <%= form_tag sessions_path, :method=>:post, validate: true do |f| %>
+      <div class="form-label">
+        <%= label_tag :email, "邮箱" %>
+      </div>
+      <div>
+        <%= text_field_tag :email %>
+      </div>
+
+      <div class="form-label">
+        <%= label_tag :password, "密码"  %>
+      </div>
+      <div>
+        <%= password_field_tag :password %>
+      </div>
+
+      <div class="form-btn">
+        <%= submit_tag "登陆", :class=>'sub-btn' %>
+      </div>
+  <% end %>
+</div>

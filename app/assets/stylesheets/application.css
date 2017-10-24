@@ -12,5 +12,7 @@
  *
  *= require app_bootsrap
  *= require application/base
+ *= require common/animate
  *= require application/login
+ *= require application/session
  */

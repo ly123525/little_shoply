@@ -1,36 +1,34 @@
-*{margin: 0; padding: 0}
-body.users.new{
+body.sessions.new{
     font-family: "微软雅黑", "宋体";
     font-size: 14px;
     background: white;
 }
-.login{
+.session{
     border: solid #ccc 1px;
     width: 320px;
-    height: 400px;
+    height: 350px;
     margin: 100px auto;
     padding: 25px;
     border-radius: 4px;
 }
-.login h4{
+.session h4{
     font-size: 16px;
     line-height: 32px;
 }
-/*.login div{*/
-    /*border: solid red 1px;*/
-     /*}*/
-.login input{
+
+.session input{
     width: 250px;
     height: 30px;
     border-radius: 4px;
 }
-.login .form-label{
+
+.session .form-label{
     margin-top:15px;
 }
-.login .form-btn{
-    margin-top: 20px;
+.session .form-btn{
+    margin-top: 30px;
 }
-.login .form-btn .sub-btn{
+.session .form-btn .sub-btn{
     height: 30px;
     background: dodgerblue;
     color: white;
@@ -40,5 +38,4 @@ body.users.new{
     font-size: 16px;
     letter-spacing: 3px;
 }
-.login .form-btn .sub-btn:hover{ background: deepskyblue }
-.field_with_errors label.message {color: red }
+.session .form-btn .sub-btn:hover{ background: deepskyblue }
